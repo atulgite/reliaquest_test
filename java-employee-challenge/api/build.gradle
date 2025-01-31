@@ -1,0 +1,13 @@
+plugins {
+    id 'project-conventions'
+}
+
+dependencies {
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    implementation 'org.springframework.boot:spring-boot-starter-webflux'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+}
+
+springBoot {
+    mainClass = 'com.reliaquest.api.ApiApplication'
+}
